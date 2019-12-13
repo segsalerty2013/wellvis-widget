@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Testing Widget</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+  <p style="text-align: center">Sample Widget Integration.</p>
+
+  <!-- Wellvis Widget. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="src/js/wellvis-widget-1.0.js" async></script>
+  <script>
+    $('document').ready(function(){
+      $('#wellvis-widget').wellvisWidget({ title: 'Widget' });
+    })
+  </script>
+</body>
+
+</html>
